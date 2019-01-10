@@ -7,9 +7,9 @@ let sentences=[]
 function theBeatlesPlay(musicians,instruments) { 
   for (let i=0; i<musicians.length; i++) {
     let whattheyplay= `${musicians[i]} plays ${instruments[i]}`;
-    sentences.push(whattheyplay)
+    sentences.push(whattheyplay);
   }
- return sentences
+ return sentences;
 }
 
 const facts= ['He was the last Beatle to learn to drive', 'He was never a vegetarian','He was a choir boy and boy scout', 'He hated the sound of his own voice'] 
